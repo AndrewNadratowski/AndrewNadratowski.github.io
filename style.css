@@ -279,8 +279,8 @@ span {
 .contact form textarea {
   width: 100%;
   padding: 1.5rem;
-  font-size: 1.6rem;
-  color: var(--white-color);
+  font-size: 1.9rem;
+  color: var(--text-color);
   background: var(--main-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
@@ -367,6 +367,10 @@ span {
   #menu-icon {
     display: block;
   }
+  html {
+    overflow-x: hidden;
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
