@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="title">Andrew | Developer</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, my name is</h3>
+        <h1><span>Andrew Nadratowski</span></h1>
+        <p>
+          A passionate and lifelong learner that specializes in creating
+          user-friendly, responsive websites. Let's collaborate and bring your
+          digital vision to life!
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/AndrewNadratowski" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="http://www.linkedin.com/in/andrew-nadratowski"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+        <a href="assets/an-resume.zip" class="download" download>Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="assets/picture4.png" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/picture5.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="abouthead">About <span>Me</span></h2>
+        <p>
+          Fullstack developer with experience creating clean, user-friendly
+          websites and applications. When introduced to software development by
+          a family friend, and the work he creates, I fell in love instantly.
+          The constant problem solving, knowledge, and dedication it takes to
+          create something from nothing, gave me the fulfillment I've been
+          looking for. I am looking to leverage the tech skills I've gained from
+          my coding bootcamp, in order to create clean, intuitive, and user
+          friendly code.
+        </p>
+        <a href="#projects" class="download">Learn More</a>
+      </div>
+    </section>
+    <section class="portfolio" id="projects">
+      <h2 class="abouthead">My <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-card">
+          <img src="assets/acnh.jpg" alt="" />
+          <div class="portfolio-cover">
+            <h4>AC Art Museum</h4>
+            <p>
+              Created a museum of art that helps the user obtain collectibles in
+              the game Animal Crossing: New Horizons. This project built with
+              React, MongoDB backend, Nookipedia third party API, and hosted
+              with Firebase.
+            </p>
+            <a href="https://acnh-art-gallery.web.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="assets/imdb.jpg" alt="" />
+          <div class="portfolio-cover">
+            <h4>BetterIMDB</h4>
+            <p>
+              Worked with a group of three to create a project utilizing React,
+              Typescript, JS, and API's to create a movie database that allows
+              users to view movies dating back all the way to the 1880s. We
+              implemented a search function as well as a way to filter through
+              movies by rating, year, and genre
+            </p>
+            <a href="https://betterimdb.surge.sh/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="assets/goodeats.jpg" alt="" />
+          <div class="portfolio-cover">
+            <h4>Good Eats</h4>
+            <p>
+              Utilized JavaScript/HTML/CSS/React to create a restaurant style
+              website that allows users to add items to their cart, see their
+              total including tax, as well as offer a checkout option that
+              displays a credit card checkout page.
+            </p>
+            <a
+              href="https://github.com/AndrewNadratowski/POS-project"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="assets/torchys.jpg" alt="" />
+          <div class="portfolio-cover">
+            <h4>Torchys Hot Sauce</h4>
+            <p>
+              I recently decided to learn Tailwind CSS and created my first
+              project using HTML and Tailwind CSS to demostrate my knowledge and
+              understanding of it.
+            </p>
+            <a
+              href="https://github.com/AndrewNadratowski/POS-project"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="assets/portfolio.png" alt="" />
+          <div class="portfolio-cover">
+            <h4>My Portfolio</h4>
+            <p>
+              Created a personal portfolio website using Javascript, HTML, CSS
+              in order to display all my other neat projects!
+            </p>
+            <a
+              href="https://github.com/AndrewNadratowski/POS-project"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="abouthead">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="download" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Andrew Nadratowski</p>
+      </div>
+      <div class="arrowup">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
